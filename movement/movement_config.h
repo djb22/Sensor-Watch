@@ -21,7 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#ifndef MOVEMENT_VARIANT_LITE
 #define MOVEMENT_VARIANT_LITE
+#endif
+
+/* This swaps the LED and Buzzer pins for the Red Lite board */
 #ifndef MOVEMENT_CONFIG_H_
 #define MOVEMENT_CONFIG_H_
 
